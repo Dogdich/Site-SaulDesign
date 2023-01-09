@@ -2,7 +2,7 @@
 .title {
   font-weight: 700;
   font-size: 64px;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #EEEEEE;
 }
 
@@ -353,11 +353,15 @@ body {
 .works {
   padding-top: 145px;
   padding-bottom: 145px;
-  background: url("../img/works/bg.svg") 0 0 repeat;
+  background: url("../img/works/bg.png") 0 0 repeat;
 }
 
 .main__title:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.works__items {
+  gap: 20px;
 }
 
 .item-works__navigaion {

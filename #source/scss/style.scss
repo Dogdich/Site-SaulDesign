@@ -2,7 +2,7 @@
 .title{
     font-weight: 700;
 font-size: 64px;
-line-height: 1.2; 
+line-height: 1.5; 
 color: #EEEEEE;
 
 }
@@ -278,7 +278,7 @@ max-width: 100%;
     .works {
         padding-top: 145px;
         padding-bottom: 145px;
-        background: url('../img/works/bg.svg') 0 0 repeat;
+        background: url('../img/works/bg.png') 0 0 repeat;
     }
     .works__container {
     }
@@ -290,6 +290,7 @@ max-width: 100%;
     .title {
     }
     .works__items {
+        gap: 20px;
     }
     .items-works {
     }
