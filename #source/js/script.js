@@ -7,8 +7,9 @@ function documentClick(e){
     if(targetItem.closest('.icon-menu')){
        document.documentElement.classList.toggle('menu-open'); 
     }
-
-    
+    if(targetItem.closest('.menu__link')){
+      document.documentElement.classList.toggle('menu-open'); 
+   }
 }
     $(document).ready(function () {
       $("a").on("click", function (event) {
